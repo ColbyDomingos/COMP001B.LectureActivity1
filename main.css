@@ -1,5 +1,28 @@
+/* TYPE */
 body {
     color: lightblue;
 
     background-color: black;
+}
+
+/* CLASS */
+.intro {
+    background-color: antiquewhite;
+}
+
+
+/* ID */
+#title1 {
+    font-size: larger;
+}
+
+/* Pseudo Class */
+a:hover { 
+    color: purple; 
+}
+
+/* Pseudo Element */
+h2::first-letter {
+    color: red;
+    font-size: xx-large;
 }
